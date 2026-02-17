@@ -5,7 +5,7 @@ const About = () => {
                 <div className="row align-items-center gy-4 px-sm-0 px-3">
                     <div className="col-lg-6">
                         <div>
-                            <img src="/public/images/girl.webp" className="img-fluid" alt="girl-img" />
+                            <img src="/images/girl.webp" className="img-fluid" alt="girl-img" />
                         </div>
                     </div>
                     <div className="col-lg-6">
