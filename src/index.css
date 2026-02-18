@@ -59,7 +59,59 @@ ul li:hover {
   padding: 120px 0;
 }
 
-.form-control.border-danger:focus {
+.form-control.border-danger:focus, .form-select.border-danger:focus {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+
+textarea {
+  height: 100px !important;
+}
+
+form label {
+  font-weight: 500;
+}
+
+.btn.btn-dark {
+  background-color: #8c8c8cc2;
+  border: 1px solid rgb(146, 146, 146) !important;
+  padding: 8px 18px;
+  transition: all 0.3s linear;
+}
+
+.btn.btn-dark:hover {
+  background-color: #272727c2;
+  transform: translateY(-2px);
+}
+
+.form-element {
+  background-color: rgba(224, 224, 224, 0.409);
+}
+
+.profile-img img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.sub-heading {
+  color: #717171;
+}
+
+.review-text {
+  color: #818181;
+}
+
+.review-box {
+  background-color: #e8e8e843;
+  box-shadow: 0px 0px 10px #d0d0d0;
+}
+
+.star i {
+  color: orange;
+}
+
+.hading h3 {
+  font-size: 30px;
+  color: #626262;
 }
